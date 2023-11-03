@@ -1,0 +1,6 @@
+demo.aux
+demo.fdb_latexmk
+demo.fls
+*.log
+demo.out
+*.gz

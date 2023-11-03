@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    { \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Mohammad Javad Ekrami}}}} % First name
+
+    \vspace{6pt}
+
+    {\Large Devops Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    \icon{Globe}{11}{\href{http://www.google.com}{portafolio.com}}\\
+    \icon{Phone}{11}{11 1111 1111}\\
+    \icon{MapMarker}{11}{City, Country}\\
+
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \icon{Envelope}{11}{\href{mailto:email@example.com}{email.email@example.com}}\\
+    \icon{Github}{11}{\href{https://github.com/uma-dev}{github.com/uma-dev}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{/in/your-personal-url}}\\
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Objective}
+    \vspace{-6pt}
+
+    %Dummy text
+    {Experienced DevOps and Cloud Engineer with \textbf{+5 years} in \textbf{Spain,
+            Romania, and the UK,} proficient in \textbf{Azure}, on-premise
+        infrastructures, \textbf{PostgreSQL, Kubernetes, Docker} and Automation.
+        Skilled in collaborative problem-solving, \textbf{CICD
+            Pipeline, AWS, and Python scripting}, dedicated to delivering
+        innovative solutions and continuous learning.}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+        Python, Java, Javascript.
+    \end{minipage}
+    \vspace{4mm}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+        Azure, Docker, Kubernetes, Flink, Mysql, Postgres, Grafana, Prometheus, Terraform.
+    \end{minipage}
+
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-5 pt}
+\cvsect{Experience}
+\begin{entrylist}
+    \entry
+    {10/2022 - 10/2023}
+    {VoxSolutions}
+    {Devops engineer}
+    {\vspace{-6pt}
+        \begin{itemize}[itemsep=2pt,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item{\textbf{Enhanced observability} by setting up \textbf{Prometheus Federation} across 7 datacenters around the world}
+            \item{\textbf{Automated build and deployment} using \textbf{Ansible templates} for 12 microservices}
+            \item{Effectibely \textbf{set up monitoring solutions} for \textbf{Mongodb} and identified bottlenecks}
+            \item{\textbf{Provided anomaly detection} to the traffic analyssi team using multi-cluster \textbf{Elasticsearch}}
+            \item{\textbf{Optimized MySQL's} read query time by a factor of \textbf{10X}}
+        \end{itemize}
+        \texttt{SQL} \slashsep \texttt{Excel}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Languages}
+\vspace{-6pt}
+
+\hspace{26mm} \textbf{English} - Fluent
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
