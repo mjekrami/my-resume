@@ -126,11 +126,7 @@
         }{
     \end{longtable}
 }
-% \newenvironment{entrylist}{
-%     \begin{longtable}[H]{p{0.25\linewidth} p{0.5\linewidth} p{0.25\linewidth}}
-%         }{
-%     \end{longtable}
-% }
+
 \newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
     \parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
         \small #1 % Leftmost entry date(s) text
