@@ -1,6 +1,6 @@
-resume.aux
-resume.fdb_latexmk
-resume.fls
+*.aux
+*.fdb_latexmk
+*.fls
 *.log
-resume.out
+*.out
 *.gz
